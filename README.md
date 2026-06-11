@@ -85,9 +85,10 @@ Knowledge Distillation was implemented using:
 
 The distillation objective is:
 
-\[
-L = \alpha L_{CE} + (1-\alpha)T^2L_{KD}
-\]
+Distillation Loss:
+
+L = α × CrossEntropyLoss +
+    (1 − α) × T² × KLDivergenceLoss
 
 where:
 
