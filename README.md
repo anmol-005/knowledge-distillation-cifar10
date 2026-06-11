@@ -90,15 +90,6 @@ Distillation Loss:
 L = α × CrossEntropyLoss +
     (1 − α) × T² × KLDivergenceLoss
 
-where:
-
-- \(L_{CE}\) = Cross Entropy Loss
-- \(L_{KD}\) = Distillation Loss
-- \(T\) = Temperature
-- \(\alpha\) = Balancing Parameter
-
----
-
 ## Experimental Results
 
 | Model | Accuracy (%) | Parameters |
