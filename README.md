@@ -155,6 +155,4 @@ knowledge-distillation-cifar10/
 └── results/
     ├── loss_curve.png
     ├── confusion_matrix.png
-    ├── accuracy_comparison.png
-    └── accuracy_vs_parameters.png
 ```
